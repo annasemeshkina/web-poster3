@@ -3,7 +3,7 @@
   .container {
     display: grid;
       grid-template-columns: repeat(1, 100%);
-      grid-template-rows: repeat(47, 20vw);
+      grid-template-rows: repeat(50, 20vw);
       gap: 0px 0px;
       grid-template-areas:
       "first_screen"
