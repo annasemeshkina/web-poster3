@@ -1,0 +1,228 @@
+html {
+  cursor: url('images/cursor.svg'), auto;
+}
+
+.car {
+  cursor: url('images/firecursorr.svg'), auto;
+}
+.blocks {
+  border: 0.2vw solid black;
+  box-sizing: border-box;
+}
+.first_screen {
+  background-color: #FF6C9C;
+}
+.first_screen p {
+  margin-top: 5.5vw;
+  font-family: "Black";
+  font-size: 9vw;
+  color: white;
+  -webkit-text-stroke: 0.5vw #000000;
+  text-align: center;
+}
+.flowers {
+  background-color: #FFE640;
+}
+.flowersimg {
+  height: 100%;
+  width: 100%;
+  background: url('images/flowers.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF5A26;
+}
+.phoneimg {
+  height: 90%;
+  width: 90%;
+  background: url('images/phone.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.beauty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFE640;
+}
+.beautyimg {
+  height: 90%;
+  width: 90%;
+  background: url('images/beauty.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC6DE;
+}
+.carimg {
+  height: 80%;
+  width: 80%;
+  background: url('images/car.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.jewelry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF6C9C;
+}
+.jewelryimg {
+  height: 80%;
+  width: 80%;
+  background: url('images/jewelry.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.money {
+  height: 80%;
+  width: 80%;
+  background: url('images/money.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none;
+}
+.jewelryimg:hover {
+  height: 60%;
+  width: 60%;
+  background: url('images/button.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC6DE;
+}
+.bearimg {
+  height: 80%;
+  width: 80%;
+  background: url('images/bear.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFE640;
+}
+.bagimg {
+  height: 80%;
+  width: 80%;
+  background: url('images/bag.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.shoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC6DE;
+}
+.shoesimg {
+  height: 80%;
+  width: 80%;
+  background: url('images/shoes.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.glasses {
+  display: flex;
+  align-items: center;
+  background-color: #FF6C9C;
+}
+
+.glasses1 {
+  height: 70%;
+  width: 70%;
+  background: url('images/glasses1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.glasses2 {
+  height: 70%;
+  width: 70%;
+  background: url('images/glasses2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.glasses3 {
+  height: 70%;
+  width: 70%;
+  background: url('images/glasses3.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.dress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFE640;
+}
+.dressimg {
+  height: 70%;
+  width: 70%;
+  background: url('images/dress.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.last_screen {
+  background-color: #FF6C9C;
+}
+.last_screen p {
+  margin-top: 5vw;
+  font-family: "Black";
+  font-size: 7vw;
+  color: white;
+  -webkit-text-stroke: 0.4vw #000000;
+  text-align: center;
+}
+.drum {
+  height: 30%;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 14vw;
+  background: url('images/drum.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer {
+  display: flex;
+  background-color: #FF6C9C;
+}
+.footer p {
+  margin: auto;
+  margin-left: 2vw;
+  font-family: "Black";
+  font-size: 3vw;
+  color: white;
+  -webkit-text-stroke: 0.15vw #000000;
+}
+.footer p + p{
+  margin-left: 40vw;
+}

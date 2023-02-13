@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(30, 9.7vw);
+  gap: 0px 0px;
+  grid-template-areas:
+  "first_screen first_screen first_screen"
+  "first_screen first_screen first_screen"
+  "first_screen first_screen first_screen"
+  "flowers phone beauty"
+  "flowers phone beauty"
+  "flowers phone beauty"
+  "car car car"
+  "car car car"
+  "car car car"
+  "car car car"
+  "car car car"
+  "jewelry jewelry jewelry"
+  "jewelry jewelry jewelry"
+  "bear bag shoes"
+  "bear bag shoes"
+  "bear bag shoes"
+  "glasses glasses glasses"
+  "glasses glasses glasses"
+  "dress dress dress"
+  "dress dress dress"
+  "dress dress dress"
+  "dress dress dress"
+  "dress dress dress"
+  "last_screen last_screen last_screen"
+  "last_screen last_screen last_screen"
+  "last_screen last_screen last_screen"
+  "last_screen last_screen last_screen"
+  "last_screen last_screen last_screen"
+  "last_screen last_screen last_screen"
+  "footer footer footer"
+}
+.first_screen { grid-area: first_screen }
+.flowers { grid-area: flowers }
+.phone { grid-area: phone }
+.beauty { grid-area: beauty }
+.car { grid-area: car }
+.jewelry { grid-area: jewelry }
+.bear { grid-area: bear }
+.bag { grid-area: bag }
+.shoes { grid-area: shoes }
+.glasses { grid-area: glasses }
+.dress { grid-area: dress }
+.last_screen { grid-area: last_screen }
+.footer { grid-area: footer }

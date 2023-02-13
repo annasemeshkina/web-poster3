@@ -1,0 +1,59 @@
+/*______________________________________________________________320-834______________________________________________________________*/
+@media screen and (min-width: 320px) and (max-width: 834px) {
+  .container {
+    display: grid;
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: repeat(43, 20vw);
+      gap: 0px 0px;
+      grid-template-areas:
+      "first_screen"
+      "first_screen"
+      "flowers"
+      "flowers"
+      "flowers"
+      "flowers"
+      "phone"
+      "phone"
+      "phone"
+      "phone"
+      "beauty"
+      "beauty"
+      "beauty"
+      "beauty"
+      "car"
+      "car"
+      "car"
+      "car"
+      "jewelry"
+      "jewelry"
+      "jewelry"
+      "jewelry"
+      "bear"
+      "bear"
+      "bear"
+      "bear"
+      "bag"
+      "bag"
+      "bag"
+      "bag"
+      "shoes"
+      "shoes"
+      "shoes"
+      "shoes"
+      "glasses"
+      "glasses"
+      "glasses"
+      "glasses"
+      "dress"
+      "dress"
+      "dress"
+      "dress"
+      "last_screen"
+      "last_screen"
+      "last_screen"
+      "last_screen"
+      "footer"
+    }
+    .first_screen p {
+      margin-top: 7vw;
+    }
