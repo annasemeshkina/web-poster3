@@ -1,9 +1,11 @@
 html {
   cursor: url('images/cursor.svg'), auto;
 }
-
 .car {
-  cursor: url('images/firecursorr.svg'), auto;
+  cursor: url('images/cursor3.svg'), auto;
+}
+.phone {
+    cursor: url('images/cursorphone.svg'), auto;
 }
 .blocks {
   border: 0.2vw solid black;
@@ -11,6 +13,8 @@ html {
 }
 .first_screen {
   background-color: #FF6C9C;
+  display: inline-flex;
+  justify-content: center;
 }
 .first_screen p {
   margin-top: 5.5vw;
@@ -59,6 +63,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+.beauty2 {
+  height: 90%;
+  width: 90%;
+  background: url('images/beauty2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .car {
   display: flex;
   justify-content: center;
@@ -94,6 +106,8 @@ html {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+.none {
   display: none;
 }
 .jewelryimg:hover {
@@ -160,6 +174,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+.glasses1_2 {
+  height: 70%;
+  width: 70%;
+  background: url('images/glasses1_2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .glasses2 {
   height: 70%;
   width: 70%;
@@ -168,10 +190,26 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+.glasses2_2 {
+  height: 70%;
+  width: 70%;
+  background: url('images/glasses2_2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .glasses3 {
   height: 70%;
   width: 70%;
   background: url('images/glasses3.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.glasses3_2 {
+  height: 70%;
+  width: 70%;
+  background: url('images/glasses3_2.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -205,8 +243,30 @@ html {
   height: 30%;
   width: 30%;
   margin: 0 auto;
-  margin-top: 14vw;
   background: url('images/drum.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.palki {
+  margin-top: 7vw;
+  display: flex;
+  height: 6vw;
+  justify-content: center;
+  align-items: center;
+}
+.palka1 {
+  height: 100%;
+  width: 15%;
+  background: url('images/palka1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.palka2 {
+  height: 100%;
+  width: 15%;
+  background: url('images/palka2.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
