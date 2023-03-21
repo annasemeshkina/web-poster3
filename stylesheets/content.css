@@ -1,11 +1,11 @@
-html {
-  cursor: url('images/cursor.svg'), auto;
+body {
+  cursor: url('./images/cursor.svg'), auto;
 }
 .car {
-  cursor: url('images/cursor3.svg'), auto;
+  cursor: url('./images/cursor3.svg'), auto;
 }
 .phone {
-    cursor: url('images/cursorphone.svg'), auto;
+    cursor: url('./images/cursorphone.svg'), auto;
 }
 .blocks {
   border: 0.2vw solid black;
