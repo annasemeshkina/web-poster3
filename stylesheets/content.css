@@ -7,6 +7,9 @@ body {
 .phone {
     cursor: url('./images/cursorphone.svg'), auto;
 }
+.dress {
+    cursor: url('./images/cursor5.svg'), auto;
+}
 .blocks {
   border: 0.2vw solid black;
   box-sizing: border-box;
