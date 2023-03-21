@@ -221,12 +221,16 @@ body {
   background-color: #FFE640;
 }
 .dressimg {
-  height: 70%;
-  width: 70%;
+  position: absolute;
+  height: 55%;
+  width: 55%;
   background: url('images/dress.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+.draw {
+  z-index: 0;
 }
 .last_screen {
   background-color: #FF6C9C;

@@ -1,30 +1,12 @@
-let canvas = document.getElementById('art');
-let ctx = canvas.getContext('2d');
-ctx.strokeStyle = '#1a2edb';
-
-function getMousePos(canvas, evt) {
-  var rect = canvas.getBoundingClientRect();
-  return {
-    x: evt.clientX - rect.left,
-    y: evt.clientY - rect.top
-  };
+function setup() {
+  createCanvas(1000, 600);
+   fill(0,0,0,0);
 }
 
-function mouseMove(evt) {
-  var mousePos = getMousePos(canvas, evt);
-  ctx.lineTo(mousePos.x, mousePos.y);
-  ctx.stroke();
+function draw() {
+  stroke(255, 230, 64);
+  strokeWeight(10);
+  if (mouseIsPressed === true) {
+    line(mouseX, mouseY, pmouseX, pmouseY);
+  }
 }
-
-canvas.addEventListener('mousedown', function(evt) {
-  var mousePos = getMousePos(canvas, evt);
-  ctx.beginPath();
-  ctx.moveTo(mousePos.x, mousePos.y);
-  evt.preventDefault();
-  canvas.addEventListener('mousemove', mouseMove, false);
-});
-
-
-canvas.addEventListener('mouseup', function() {
-  canvas.removeEventListener('mousemove', mouseMove, false);
-}, false);
