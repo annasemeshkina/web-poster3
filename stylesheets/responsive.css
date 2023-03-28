@@ -57,3 +57,8 @@
     .first_screen p {
       margin-top: 7vw;
     }
+    .glasses {
+      flex-direction: column;
+      display: grid;
+      background-color: #FF6C9C;
+    }

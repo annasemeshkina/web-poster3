@@ -1,6 +1,9 @@
 body {
   cursor: url('./images/cursor.svg'), auto;
 }
+.flowers {
+  cursor: url('./images/cursor5.svg'), auto;
+}
 .car {
   cursor: url('./images/cursor3.svg'), auto;
 }
