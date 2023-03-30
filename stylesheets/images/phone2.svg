@@ -1,0 +1,10 @@
+<svg width="293" height="432" viewBox="0 0 293 432" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.98665" y="-1.64809" width="372.763" height="181.126" rx="47.5" transform="matrix(0.244092 -0.969752 0.950568 0.310515 27.6899 375.965)" fill="#FFE640" stroke="black" stroke-width="5"/>
+<rect x="4.18131" y="-2.30733" width="370.299" height="188.408" rx="46.5" transform="matrix(0.244092 -0.969752 0.950568 0.310515 5.35396 368.35)" fill="white" stroke="black" stroke-width="7"/>
+<rect width="15.2265" height="85.3602" rx="7.61325" transform="matrix(0.244092 -0.969752 0.950568 0.310515 143.808 36.1611)" fill="black"/>
+<rect x="0.59733" y="-0.329618" width="6.45922" height="71.132" rx="3.22961" transform="matrix(0.244092 -0.969752 0.950568 0.310515 57.7345 369.8)" fill="black" stroke="black"/>
+<rect width="57.331" height="364.518" transform="matrix(0.950414 0.310987 -0.307056 0.951691 141.183 22.9053)" fill="black"/>
+<rect width="13.0835" height="365.576" transform="matrix(0.950414 0.310987 -0.307056 0.951691 184.649 34.5605)" fill="#FF3C6A"/>
+<rect width="13.0835" height="365.576" transform="matrix(0.950414 0.310987 -0.307056 0.951691 196.413 38.6748)" fill="#AAAAAA"/>
+<path d="M69.9661 107.125L108.422 157.684V238.662L135.423 349.235M135.423 349.235L112.104 397.739M135.423 349.235L164.061 255.104M164.061 255.104L250.382 157.684M164.061 255.104L173.879 316.762L164.061 409.249" stroke="black" stroke-width="3" stroke-linecap="round"/>
+</svg>

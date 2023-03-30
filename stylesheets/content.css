@@ -1,5 +1,6 @@
 body {
   cursor: url('./images/cursor.svg'), auto;
+  background-color: #FFE640;
 }
 .flowers {
   cursor: url('./images/cursor5.svg'), auto;
@@ -22,6 +23,67 @@ body {
   display: inline-flex;
   justify-content: center;
 }
+.y {
+  display: inline-block;
+}
+@keyframes movingy {
+    100% {transform: rotate(-360deg);}
+}
+.y:hover{
+    animation: movingy 1s infinite linear;
+}
+
+.mz {
+  display: inline-block;
+}
+.mz:hover {
+  -webkit-animation: mz 0.6s ease;
+  animation: mz 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+}
+@keyframes mz {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.p {
+  display: inline-block;
+}
+.p:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.b {
+  display: inline-block;
+}
+.b:hover {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
 .first_screen p {
   margin-top: 5.5vw;
   font-family: "Black";
@@ -31,12 +93,88 @@ body {
   text-align: center;
 }
 .flowers {
-  background-color: #FFE640;
+  display: flex;
 }
-.flowersimg {
-  height: 100%;
-  width: 100%;
-  background: url('images/flowers.svg');
+.pink {
+  margin-top: 13vw;
+  margin-left: 2vw;
+  height: 60%;
+  width: 60%;
+  background: url('images/pink.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pink:hover {
+  height: 60%;
+  width: 60%;
+  background: url('images/pinksad.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.orange {
+  margin-top: 3vw;
+  margin-left: -9vw;
+  height: 90%;
+  width: 30%;
+  background: url('images/orange.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.orange:hover {
+  height: 90%;
+  width: 30%;
+  background: url('images/orangesad.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pink2 {
+  margin-left: -4vw;
+  margin-top: 9vw;
+  height: 70%;
+  width: 60%;
+  background: url('images/pink2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pink2:hover {
+  height: 70%;
+  width: 60%;
+  background: url('images/pink2sad.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pinkl {
+  margin-top: 13vw;
+  margin-left: 2vw;
+  height: 60%;
+  width: 60%;
+  background: url('images/pinkl.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.orangel {
+  margin-top: 3vw;
+  margin-left: -9vw;
+  height: 90%;
+  width: 30%;
+  background: url('images/orangel.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pink2l {
+  margin-left: -4vw;
+  margin-top: 9vw;
+  height: 70%;
+  width: 60%;
+  background: url('images/pink2l.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,6 +189,14 @@ body {
   height: 90%;
   width: 90%;
   background: url('images/phone.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.phone2 {
+  height: 90%;
+  width: 90%;
+  background: url('images/phone2.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,15 +224,26 @@ body {
   background-repeat: no-repeat;
 }
 .car {
-  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #FFC6DE;
 }
 .carimg {
+  margin-top: 5vw;
+  margin-left: 10vw;
   height: 80%;
   width: 80%;
   background: url('images/car.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fire {
+  margin-top: -33.8vw;
+  margin-left: -5vw;
+  height: 100%;
+  width: 105%;
+  background: url('images/fire.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,6 +281,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.moneys {
+  margin-top: 7vw;
+  display: flex;
+  height: 6vw;
+  justify-content: center;
+  align-items: center;
+}
 .bear {
   display: flex;
   justify-content: center;
@@ -138,16 +302,44 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.bear2 {
+  height: 80%;
+  width: 80%;
+  background: url('images/bear2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .bag {
-  display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #FFE640;
 }
-.bagimg {
-  height: 80%;
-  width: 80%;
-  background: url('images/bag.svg');
+.bag1 {
+  margin-top: 5vw;
+  margin-left: 9vw;
+  height: 30%;
+  width: 40%;
+  background: url('images/bag1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bag2 {
+  margin-top: -3vw;
+  margin-left: 10vw;
+  height: 30%;
+  width: 35%;
+  background: url('images/bag2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bag3 {
+  margin-top: -4.9vw;
+  margin-left: 9vw;
+  height: 40%;
+  width: 40%;
+  background: url('images/bag3.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,9 +351,25 @@ body {
   background-color: #FFC6DE;
 }
 .shoesimg {
+  height: 70%;
+  width: 70%;
+  background: url('images/shoes.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.shoesimg:hover {
   height: 80%;
   width: 80%;
-  background: url('images/shoes.svg');
+  background: url('images/button2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.trash {
+  height: 80%;
+  width: 80%;
+  background: url('images/trash.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -272,6 +480,15 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  animation: 0.2s linear 0s normal none infinite running p1;
+}
+@keyframes p1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
 }
 .palka2 {
   height: 100%;
@@ -280,6 +497,27 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  rotate: 20deg;
+  animation: 0.2s linear 0s normal none infinite running p2;
+}
+@keyframes p2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
+.picture {
+  background: url('images/psih.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 60%;
+  margin-top: -12vw;
+  margin-left: 21vw;
 }
 .footer {
   display: flex;

@@ -1,3 +1,6 @@
-$(function() {
-	$(".shoesimg").draggable({ containment: "parent" });
+$(document).ready(function() {
+   $(".shoesimg").click(function() {
+     $(".shoesimg").addClass("none");
+      $(".trash").removeClass("none");
+  });
 });

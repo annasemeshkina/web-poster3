@@ -57,8 +57,57 @@
     .first_screen p {
       margin-top: 7vw;
     }
-    .glasses {
-      flex-direction: column;
-      display: grid;
-      background-color: #FF6C9C;
+    .bag1 {
+      margin-top: 11vw;
+      margin-left: 26vw;
+      height: 30%;
+      width: 40%;
+      background: url('images/bag1.svg');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .bag2 {
+      margin-top: -6vw;
+      margin-left: 29vw;
+      height: 30%;
+      width: 35%;
+      background: url('images/bag2.svg');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .bag3 {
+      margin-top: -12.2vw;
+      margin-left: 26vw;
+      height: 40%;
+      width: 40%;
+      background: url('images/bag3.svg');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .pink {
+      margin-top: 33vw;
+      margin-left: 2vw;
+    }
+    .orange {
+      margin-top: 11vw;
+      margin-left: -30vw;
+    }
+    .pink2 {
+      margin-left: -15vw;
+      margin-top: 24vw;
+    }
+    .pinkl {
+      margin-top: 33vw;
+      margin-left: 2vw;
+    }
+    .orangel {
+      margin-top: 11vw;
+      margin-left: -30vw;
+    }
+    .pink2l {
+      margin-left: -15vw;
+      margin-top: 24vw;
     }

@@ -1,24 +1,14 @@
-$(function() {
-	$(".shoesimg").draggable();
-});
-$(function() {
-	$(".carimg").draggable();
-});
-$(function() {
-	$(".1l").draggable();
-});
-$(function() {
-	$(".2l").draggable();
-});
-$(function() {
-	$(".3l").draggable();
-});
-$(function() {
-	$(".4l").draggable();
-});
-$(function() {
-	$(".5l").draggable();
-});
-$(function() {
-	$(".6l").draggable();
+$(document).ready(function() {
+   $(".pink").click(function() {
+     $(".pink").addClass("none");
+      $(".pinkl").removeClass("none");
+  });
+   $(".orange").click(function() {
+     $(".orange").addClass("none");
+      $(".orangel").removeClass("none");
+  });
+   $(".pink2").click(function() {
+     $(".pink2").addClass("none");
+      $(".pink2l").removeClass("none");
+  });
 });
